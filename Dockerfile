@@ -1,7 +1,8 @@
 FROM openjdk:17-bullseye
 
 WORKDIR /app
-COPY ./is-version-valid.sh ./is-version-valid.sh
+COPY ./is-version-valid.sh .
+COPY ./build.sh .
 
 ENV VERSION latest
 
@@ -11,4 +12,4 @@ RUN apt update && \
 
 #RUN sh ./is-version-valid.sh 17 ${VERSION}
 
-CMD java -jar BuildTools.jar --rev ${VERSION}
+CMD sh build.sh ${VERSION}
