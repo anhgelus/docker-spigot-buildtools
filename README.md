@@ -14,7 +14,7 @@
 # Quick reference (cont.)
 
 -	**Where to file issues**:  
-	[https://github.com/docker-library/openjdk/issues](https://github.com/docker-library/openjdk/issues)
+	[https://github.com/anhgelus/docker-spigot-buildtools/issues](https://github.com/anhgelus/docker-spigot-buildtools/issues)
 
 -	**Source of this description**:  
 	[README.md](https://github.com/anhgelus/docker-spigot-buildtools/blob/master/README.md)
